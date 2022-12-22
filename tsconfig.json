@@ -15,7 +15,7 @@
     "noEmit": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-//     "strictNullChecks": true, // null, undefined 타입 조작 관련 에러
+    //     "strictNullChecks": true, // null, undefined 타입 조작 관련 에러
     "strict": false,
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
@@ -41,13 +41,6 @@
       "@services/*": ["services/*"]
     }
   },
-  "include": [
-    "index.d.ts",
-    "next-env.d.ts",
-    "**/*.tsx",
-    "**/*.ts",
-    "**/*.jsx",
-    "**/*.js"
-  ],
+  "include": ["index.d.ts", "next-env.d.ts", "**/*.tsx", "**/*.ts", "**/*.jsx", "**/*.js"],
   "exclude": [".next", "node_modules"]
 }
