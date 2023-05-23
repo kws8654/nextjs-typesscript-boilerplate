@@ -35,10 +35,16 @@
     "baseUrl": ".",
     "lib": ["dom", "dom.iterable", "esnext"],
     "paths": {
+      "@/*": ["./*"],
+      "@pages/*": ["pages/*"],
+      "@server/*": ["server/*"],
+      "@public/*": ["public/*"],
+      "@styles/*": ["styles/*"],
       "@components/*": ["components/*"],
-      "@utils/*": ["utils/*"],
       "@lib/*": ["lib/*"],
-      "@services/*": ["services/*"]
+      "@utils/*": ["utils/*"],
+      "@services/*": ["services/*"],
+      "@hooks/*": ["hooks/*"],
     }
   },
   "include": ["index.d.ts", "next-env.d.ts", "**/*.tsx", "**/*.ts", "**/*.jsx", "**/*.js"],
